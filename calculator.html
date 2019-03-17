@@ -16,6 +16,9 @@ function inv() {
 function sine() {
 		var num = document.getElementById("n1");
 		num.value = Math.sin(num.value);
+function cuarta() {
+		var num = document.getElementById("n1");
+		num.value = Math.pow(num.value, 4);
 }
 </script>
 </head>
@@ -28,6 +31,7 @@ function sine() {
 		<button onclick="cube()"> x^3 </button>
 		<button onclick="inv()"> 1/x </button>
 		<button onclick="sine()"> sin(x) </button>
+		<button onclick="cuarta()"> x^4 </button>
 	</p>
 </body>
 </html>
